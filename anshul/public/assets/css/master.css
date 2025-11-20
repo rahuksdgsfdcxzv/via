@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .background_image {
+  height: 170px;
+    }
+}
+
+@media (min-width: 767.99px) {
+    .right-section {
+ height: calc(100vh
+733.333px
+ - 10px);
+    }
+}
+
+@media (max-width: 766.99px) {
+  .trip-image{
+width: 100%;
+height: 200px;
+position: relative;
+margin-bottom: 10px;
+  }
+    }
+
+
+
