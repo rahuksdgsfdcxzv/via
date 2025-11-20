@@ -1,0 +1,335 @@
+.font-32
+{
+    font-size: 32px;
+}
+
+.font-16
+{
+    font-size: 16px;
+}
+
+.font-18
+{
+    font-size: 18px;
+}
+
+.font-16
+{
+    font-size: 16px;
+}
+
+.background_image {
+  background: url('../images/via_background.png') no-repeat center center / cover;
+  height: 100vh;
+
+}
+
+.form-control
+ {
+  padding-left: 55px; 
+  border-radius: 10px;
+  height: 60px;
+  border: 2px solid #3B3B3B;
+}
+
+.form-control:focus {
+  border-color: #2A7462 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.social_btn
+{
+  height: 60px;
+  width: 100%;
+}
+
+.right_section 
+{
+  max-width: 550px;
+    margin: auto;
+    height: calc(100vh - 10px);
+    overflow: auto;
+    padding: 30px 0px;
+    scrollbar-width: none;
+}
+
+.button_large 
+{
+  height: 60px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.bg_gradient 
+{
+  background: linear-gradient(90deg, #18473B, #2A7462);
+  border: none;
+}
+
+.text-green 
+{
+  color: #18473B;
+}
+
+ .i_icon {
+      height: 32px;
+      width: 32px;
+      background: linear-gradient(90deg, #18473B, #2A7462);
+      color: #fff;
+      left: 15px;
+    }
+
+    .i_icon svg {
+      width: 16px;
+      height: 16px;
+      fill: white;
+    }
+
+    .camera-icon svg {
+      width: 22px;
+      height: 22px;
+      fill: #fff;
+    }
+
+    .camera-icon {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+       background: linear-gradient(90deg, #18473B, #2A7462);
+      color: white;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      
+    }
+
+
+
+
+/*  */
+
+    .toggle-password {
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #6c757d;
+    }
+
+    /*  */
+    
+ .profile-upload {
+    position: relative;  /* Yeh zaroori hai! */
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 30px;
+}
+
+.profile-upload img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f0f0f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.camera-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: linear-gradient(90deg, #18473B, #2A7462);
+    color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+   
+}
+
+/*  */
+.interest_section
+{
+  max-width: 950px;
+  margin-top: 50px;
+}
+
+.interest_section button
+{
+  border: 1 px solid #272727;
+  border-radius: 40px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+
+
+/*  */
+.intrest_btn.active {
+    background: linear-gradient(90deg, #18473B, #2A7462);
+    color: #fff;
+    border-color: #0ea75c;
+}
+
+.intrest_btn.active img {
+    filter: brightness(0) invert(1);
+}
+
+/*  */
+
+ .nav-tabs .nav-link.active {
+      color: #18473B;
+      border-bottom: 2px solid #18473B;
+    }
+
+     .nav-tabs {
+      border: none;
+      margin: 2rem 2rem 1rem;
+    }
+
+.trip-image
+{
+  height: 120px;
+  width: 180px;
+}
+
+.btn-brown
+{
+  background-color: #E2C08F;
+  height: 32px;
+}
+
+.btn-brown:hover
+{
+  background-color: #E2C08F;
+}
+
+/* Normal tab style */
+.nav-tabs .nav-link {
+    border: none !important;
+    color: #808080 !important;
+}
+
+/* ACTIVE TAB UNDERLINE */
+.nav-tabs .nav-link.active {
+    color: #18473B !important;
+    border: none !important;
+    border-bottom: 3px solid #18473B !important;
+    background-color: transparent !important;
+}
+
+.bg_brown
+{
+  background-color: #E2C08F;
+}
+
+/* .modal
+{
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+/* booking detail */
+.profile-card,
+        .document-card,
+        .milestone-card,
+        .summary-card {
+            border: 1px solid #e9ecef;
+            border-radius: 18px;
+            background: #fff;
+                border-radius: 18px;
+    max-width: 550px;
+    
+    margin-right: auto;
+    margin-left: auto;
+        }
+
+        .profile-img {
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .summary-card {
+            padding: 18px 22px;
+            border-radius: 16px;
+        }
+
+        
+
+        .milestone-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .milestone-item:last-child {
+            border-bottom: none;
+        }
+
+        .text-yellow
+        {
+          color: #D27C00;
+        }
+
+        .summary-icon  {
+          height: 67px;
+          width: 67px;
+              display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+  /*  */
+  .stats-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .stat-item {
+            position: relative;
+        }
+
+        .stat-item.collected {
+            border-left: 4px solid #059669;
+        }
+
+        .stat-item.pending {
+            border-left: 4px solid #dc2626;
+        }
+
+        .stat-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 20%;
+            height: 60%;
+            width: 1px;
+            background: #e5e5e5;
+        }
+
+        .icon-wrapper {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: #e5e5e5;
+           
+            flex-shrink: 0;
+        }
+
+        .icon-wrapper svg {
+            width: 22px;
+            height: 22px;
+            fill: #6b7280;
+        }
+
+        .stat-label {
+            color: #6b7280;
+            margin-bottom: 4px;
+        }
+
+        .stat-amount {
+            color: #111827;
+        }
+
+
